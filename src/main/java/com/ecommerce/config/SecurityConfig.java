@@ -29,7 +29,7 @@ public class SecurityConfig {
                     config.setAllowedOrigins(List.of(
                             "http://localhost:3000",
                             "http://127.0.0.1:3000",
-                            "https://allshoppoint.vercel.app"));
+                            "https://ashoping.vercel.app"));
 
                     config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                     config.setAllowedHeaders(List.of("*"));
